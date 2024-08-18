@@ -1,0 +1,39 @@
+.pager_simple_orange {
+}
+
+.pager_simple_orange {
+    float: right
+}
+
+.pager_simple_orange td {
+    border: 0!important;
+    width: 33px;
+    height: 33px
+}
+
+.pager_simple_orange td {
+}
+
+.pager_simple_orange a {
+    text-decoration: none;
+    font: 12px Arial;
+    font-weight: 400;
+    color: #333;
+    display: block;
+    padding: 9px 11px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    width: 33px;
+    height: 33px
+}
+
+.pager_simple_orange .active a,.pager_simple_orange a:hover {
+    background-color: #f59331;
+    border: 1px solid #f59331!important;
+    color: White
+}
+
+.pager_simple_orange .active,.pager_simple_orange .active {
+    background-color: #f59331;
+    color: White
+}

@@ -1,0 +1,1147 @@
+@media only screen and (max-width: 1650px) {
+    .s-form-search {
+        background:#fff;
+        border: 1px solid #ccc;
+        padding: 15px;
+        right: 15px;
+        position: absolute;
+        z-index: 999999
+    }
+}
+
+@media(min-width: 1300px) {
+    .container {
+        width:1300px!important
+    }
+}
+
+@media only screen and (max-width: 1366px) {
+    .mc-detail {
+        overflow:auto;
+        max-height: 410px
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .nav-main li a,.nav-main .dropbtn {
+        padding-left:22px;
+        padding-right: 22px
+    }
+
+    .slideshow a img.pic {
+        height: auto
+    }
+
+    .group-slideshow .col-lg-6 {
+        padding-left: 15px!important;
+        padding-right: 15px!important
+    }
+
+    .slideshow .col-lg-7 {
+        padding-right: 15px!important;
+        padding-left: 15px!important
+    }
+
+    .slideshow .mg-bot {
+        margin-bottom: 20px
+    }
+
+    .group-slideshow img.pic-s {
+        height: 320px!important
+    }
+
+    .slideshow .col-lg-5 {
+        padding-right: 0!important
+    }
+
+    .dulich360 .bg-title-left {
+        width: 33%
+    }
+
+    .dulich360 .bg-title-right {
+        width: 67%
+    }
+
+    .tourhotkhuyenmai .bg-title-left {
+        width: 23%
+    }
+
+    .tourhotkhuyenmai .bg-title-right {
+        width: 77%
+    }
+
+    .tindulich .bg-title-left {
+        width: 25%
+    }
+
+    .tindulich .bg-title-right {
+        width: 75%
+    }
+
+    .videoclips .bg-title-left {
+        width: 26%
+    }
+
+    .videoclips .bg-title-right {
+        width: 74%
+    }
+
+    .trainghiem360 .bg-title-left {
+        width: 65%
+    }
+
+    .trainghiem360 .bg-title-right {
+        width: 35%
+    }
+
+    .tinquantam .bg-title-left {
+        width: 65%
+    }
+
+    .tinquantam .bg-title-right {
+        width: 35%
+    }
+
+    .dulichgiare .bg-title-left {
+        width: 50%
+    }
+
+    .dulichgiare .bg-title-right {
+        width: 50%
+    }
+
+    .dulichtuchon .bg-title-left {
+        width: 52%
+    }
+
+    .dulichtuchon .bg-title-right {
+        width: 48%
+    }
+
+    .ykienkhachhang .bg-title-left {
+        width: 60%
+    }
+
+    .ykienkhachhang .bg-title-right {
+        width: 40%
+    }
+
+    .search-tour {
+        background: #36c5f4
+    }
+
+    .trainghiem360 img.pic {
+        height: auto
+    }
+
+    .list-tinquantam .col-lg-8 {
+        padding-left: 15px!important
+    }
+
+    .dulichgiare img.pic-dlgr {
+        height: 225px
+    }
+
+    .dulichtuchon img.pic-dlgr {
+        height: 225px
+    }
+
+    .dulich360 img.pic {
+        height: auto
+    }
+
+    .right-title .nk-left-sub img.pic-sub,.right-title .nk-right-sub img.pic-sub {
+        height: 225px
+    }
+
+    .right-title .nk-left-sub .col-lg-7,.right-title .nk-right-sub .col-lg-7 {
+        padding-left: 15px!important
+    }
+
+    .right-title .nk-left-sub .mg-bot,.right-title .nk-right-sub .mg-bot {
+        margin-bottom: 15px
+    }
+
+    .tourhotkhuyenmai img.pic {
+        height: 143px
+    }
+
+    .ctt-cactinkhac img.pic {
+        height: 196px
+    }
+
+    .tintuc-in img.pic-lg {
+        height: auto
+    }
+
+    .tintuc-in .catnoidung {
+        height: 100px!important
+    }
+
+    .tintuc-in img.pic-s {
+        height: auto
+    }
+
+    .videoclips img.v-lg {
+        height: auto
+    }
+
+    .list-video .v-s {
+        height: auto
+    }
+
+    .nhatkyvietravel .bg-title-left {
+        width: 40%
+    }
+
+    .nhatkyvietravel .bg-title-right {
+        width: 60%
+    }
+
+    .nhatky .bg-title-left {
+        width: 29%
+    }
+
+    .nhatky .bg-title-right {
+        width: 71%
+    }
+
+    .item-news img {
+        height: auto
+    }
+
+    .ctt-thongtintour .bg-title-left {
+        width: 22%
+    }
+
+    .ctt-thongtintour .bg-title-right {
+        width: 78%
+    }
+
+    .ctt-thongtintour-item .tour-info {
+        margin-bottom: 10px
+    }
+
+    .ctt-thongtintour-item img {
+        height: 100px
+    }
+
+    .ctt-lienhe .bg-title-left {
+        width: 13%
+    }
+
+    .ctt-lienhe .bg-title-right {
+        width: 87%
+    }
+
+    .ctt-cactinkhac .bg-title-left {
+        width: 19%
+    }
+
+    .ctt-cactinkhac .bg-title-right {
+        width: 81%
+    }
+
+    .ctt-cnvp .bg-title-left {
+        width: 83%
+    }
+
+    .ctt-cnvp .bg-title-right {
+        width: 17%
+    }
+
+    .news-social .col-md-1 {
+        padding-right: 0!important
+    }
+
+    .news-social .col-md-1 {
+        margin-left: -20px
+    }
+
+    .news-social .col-md-1:first-child {
+        margin-left: 0
+    }
+
+    .header .header-top .hdtop-phone .phone-support-show {
+        right: 15px
+    }
+
+    .nav-main {
+        font-size: 14px
+    }
+
+    #main_menu>li>a {
+        padding-left: 12px;
+        padding-right: 12px
+    }
+
+    .news-social .col-sm-1 {
+        padding-right: 0!important;
+        width: 6%!important
+    }
+
+    .news-social img {
+        height: 35px
+    }
+
+    .lienhe .bg-title-left {
+        width: 12%
+    }
+
+    .lienhe .bg-title-right {
+        width: 88%
+    }
+
+    .hethong .bg-title-left {
+        width: 28%
+    }
+
+    .hethong .bg-title-right {
+        width: 72%
+    }
+
+    img.pic-tapchi {
+        height: auto
+    }
+
+    img.pic-video {
+        height: auto
+    }
+
+    .right-title .sub-tin img.pic-sub {
+        height: auto
+    }
+
+    .right-title .sub-tin .col-lg-7 {
+        padding-left: 15px!important
+    }
+
+    .right-title .sub-tin .mg-bot {
+        margin-bottom: 15px
+    }
+
+    .pic-tinkhac {
+        height: 100px
+    }
+
+    .social {
+        display: none
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .setminheightMedia {
+        min-height:225px
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .setminheight,.setminheightMedia {
+        min-height:285px
+    }
+
+    .setminheightMedia {
+        min-height: 240px
+    }
+
+    .header .header-top .hdtop-search {
+    }
+
+    .header .header-top .hdtop-search input::placeholder {
+        font-size: 12.5px
+    }
+
+    .mn-vmember {
+        background-color: #fff;
+        position: absolute;
+        left: 0;
+        bottom: 159px;
+        padding: 5px 0;
+        text-align: center;
+        width: 100%;
+        opacity: .8;
+        z-index: 9
+    }
+
+    .mn-colorfull {
+        width: 100%;
+        position: absolute;
+        z-index: 9;
+        left: 0;
+        bottom: 153px
+    }
+
+    .mobile-member .mn-item {
+        padding: 15px 30px;
+        position: absolute;
+        left: 0;
+        top: 0
+    }
+
+    .mobile-member .item {
+        width: 150px;
+        height: 50px;
+        padding: 5px;
+        background-color: #fff;
+        border-radius: 5px;
+        float: left;
+        margin: 5px 0 0 5px;
+        overflow: hidden;
+        box-shadow: 0 0 5px #bbb
+    }
+
+    .mobile-member .item img {
+        max-width: 100%;
+        margin: auto
+    }
+
+    .mobile-member .overmobile {
+        background-color: #eee;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100vh;
+        -webkit-transition: .3s;
+        -moz-transition: .3s;
+        -ms-transition: .3s;
+        -o-transition: .3s;
+        transition: .3s
+    }
+
+    .vlogo {
+        text-align: center
+    }
+
+    .vlogo img {
+        margin: auto;
+        max-width: 60%
+    }
+
+    .mc-detail {
+        overflow: auto;
+        max-height: 170px
+    }
+
+    .show-menu-mini {
+        right: 0;
+        top: 9rem
+    }
+
+    .show-menu-mini ul li {
+        padding-left: 6rem
+    }
+}
+
+@media only screen and (min-width: 800px) {
+    .show-menu-mini ul {
+        width:85vw;
+        padding-left: 0;
+        background: #fff;
+        display: block;
+        float: right;
+        box-shadow: 2px 3px 10px rgb(0 0 0/30%)
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .header .header-top {
+    }
+
+    .show-menu-mini {
+        right: 0;
+        top: 9rem
+    }
+
+    .show-menu-mini ul li {
+        padding-left: 4rem
+    }
+
+    .slideshow a img.pic {
+        height: auto
+    }
+
+    .group-slideshow img.pic-s {
+        height: 242px!important
+    }
+
+    .trainghiem360 img.pic {
+        height: auto
+    }
+
+    .list-tinquantam img.pic-tqt {
+        height: auto
+    }
+
+    .dulichgiare img.pic-dlgr {
+        height: 265px
+    }
+
+    .dulichtuchon img.pic-dlgr {
+        height: 265px
+    }
+
+    .dulich360 img.pic {
+        height: auto
+    }
+
+    .right-title .nk-left-sub img.pic-sub,.right-title .nk-right-sub img.pic-sub {
+        height: 265px
+    }
+
+    .tourhotkhuyenmai img.pic {
+        height: 145px
+    }
+
+    .ctt-cactinkhac img.pic {
+        height: 145px
+    }
+
+    .dulich360 .bg-title-left {
+        width: 28%
+    }
+
+    .dulich360 .bg-title-right {
+        width: 72%
+    }
+
+    .tourhotkhuyenmai .bg-title-left {
+        width: 20%
+    }
+
+    .tourhotkhuyenmai .bg-title-right {
+        width: 80%
+    }
+
+    .tindulich .bg-title-left {
+        width: 22%
+    }
+
+    .tindulich .bg-title-right {
+        width: 78%
+    }
+
+    .videoclips .bg-title-left {
+        width: 22%
+    }
+
+    .videoclips .bg-title-right {
+        width: 78%
+    }
+
+    .trainghiem360 .bg-title-left {
+        width: 28%
+    }
+
+    .trainghiem360 .bg-title-right {
+        width: 72%
+    }
+
+    .tinquantam .bg-title-left {
+        width: 28%
+    }
+
+    .tinquantam .bg-title-right {
+        width: 72%
+    }
+
+    .dulichgiare .bg-title-left {
+        width: 20%
+    }
+
+    .dulichgiare .bg-title-right {
+        width: 80%
+    }
+
+    .dulichtuchon .bg-title-left {
+        width: 24%
+    }
+
+    .dulichtuchon .bg-title-right {
+        width: 76%
+    }
+
+    .nhatky .bg-title-left {
+        width: 37%
+    }
+
+    .nhatky .bg-title-right {
+        width: 63%
+    }
+
+    .ykienkhachhang .bg-title-left {
+        width: 27%
+    }
+
+    .ykienkhachhang .bg-title-right {
+        width: 73%
+    }
+
+    .tintuc-in img.pic-lg {
+        height: auto
+    }
+
+    .tintuc-in .catnoidung {
+        height: 130px!important
+    }
+
+    .tintuc-in img.pic-s {
+        height: auto
+    }
+
+    .videoclips img.v-lg {
+        height: auto
+    }
+
+    .list-video .v-s {
+        height: auto
+    }
+
+    .ykienkhachhang .ykkh-noidung {
+        height: 100px
+    }
+
+    .item-news img {
+        height: auto
+    }
+
+    .news-social img {
+        height: 35px
+    }
+
+    .news-social .col-sm-1 {
+        padding-right: 0!important;
+        width: 8%!important
+    }
+
+    .ctt-thongtintour .bg-title-left {
+        width: 30%
+    }
+
+    .ctt-thongtintour .bg-title-right {
+        width: 70%
+    }
+
+    .ctt-thongtintour-item img {
+        height: 115px
+    }
+
+    .ctt-thongtintour-item .col-lg-9 {
+        padding-left: 15px!important
+    }
+
+    .ctt-lienhe .bg-title-left {
+        width: 16%
+    }
+
+    .ctt-lienhe .bg-title-right {
+        width: 84%
+    }
+
+    .ctt-cactinkhac .bg-title-left {
+        width: 24%
+    }
+
+    .ctt-cactinkhac .bg-title-right {
+        width: 76%
+    }
+
+    .ctt-cnvp .bg-title-left {
+        width: 72%
+    }
+
+    .ctt-cnvp .bg-title-right {
+        width: 28%
+    }
+
+    .header {
+        margin-bottom: 10px
+    }
+
+    .search-tour {
+        height: auto;
+        padding: 10px 0
+    }
+
+    .show-menu-mini {
+        top: 8rem
+    }
+
+    .header-menu {
+        border-top: 1px solid #efefef;
+        margin-top: 8px
+    }
+
+    .lienhe .bg-title-left {
+        width: 16%
+    }
+
+    .lienhe .bg-title-right {
+        width: 84%
+    }
+
+    .hethong .bg-title-left {
+        width: 36%
+    }
+
+    .hethong .bg-title-right {
+        width: 64%
+    }
+
+    .pos-sys {
+        position: initial!important;
+        top: 0!important;
+        width: 100%;
+        left: 0!important
+    }
+
+    .form-hethong {
+        margin: initial!important;
+        width: auto;
+        background: #fff;
+        padding: 0
+    }
+
+    .form-hethong .mg-b {
+        margin-bottom: 15px
+    }
+
+    img.pic-tapchi {
+        height: auto
+    }
+
+    img.pic-video {
+        height: auto
+    }
+
+    .right-title .sub-tin img.pic-sub {
+        height: auto
+    }
+
+    .pic-tinkhac {
+        height: 90px
+    }
+}
+
+@media only screen and (min-width: 768px) {
+}
+
+@media only screen and (max-width: 480px) {
+    .s-form-search {
+        background:#fff;
+        border: 1px solid #ccc;
+        padding: 15px;
+        right: -1px;
+        position: relative;
+        z-index: 999999
+    }
+
+    .mc-detail {
+        overflow: auto;
+        max-height: 450px
+    }
+
+    .mn-vmember {
+        bottom: 234px
+    }
+
+    .mn-colorfull {
+        bottom: 228px
+    }
+
+    .news-social .col-sm-1 {
+        width: 16%!important
+    }
+
+    .ctt-lienhe .bg-title-left {
+        width: 33%
+    }
+
+    .ctt-lienhe .bg-title-right {
+        width: 67%
+    }
+
+    .dulich360 .bg-title-left {
+        width: 57%
+    }
+
+    .dulich360 .bg-title-right {
+        width: 43%
+    }
+
+    .tourhotkhuyenmai .bg-title-left {
+        width: 40%
+    }
+
+    .tourhotkhuyenmai .bg-title-right {
+        width: 60%
+    }
+
+    .tindulich .bg-title-left {
+        width: 45%
+    }
+
+    .tindulich .bg-title-right {
+        width: 55%
+    }
+
+    .videoclips .bg-title-left {
+        width: 45%
+    }
+
+    .videoclips .bg-title-right {
+        width: 55%
+    }
+
+    .nhatkyvietravel .bg-title-left {
+        width: 100%
+    }
+
+    .trainghiem360 .bg-title-left {
+        width: 57%
+    }
+
+    .trainghiem360 .bg-title-right {
+        width: 43%
+    }
+
+    .dulichtuchon .bg-title-left {
+        width: 47%
+    }
+
+    .dulichtuchon .bg-title-right {
+        width: 53%
+    }
+
+    .tinquantam .bg-title-left {
+        width: 57%
+    }
+
+    .tinquantam .bg-title-right {
+        width: 43%
+    }
+
+    .dulichgiare .bg-title-left {
+        width: 44%
+    }
+
+    .dulichgiare .bg-title-right {
+        width: 56%
+    }
+
+    .ykienkhachhang .bg-title-left {
+        width: 55%
+    }
+
+    .ykienkhachhang .bg-title-right {
+        width: 45%
+    }
+
+    .ctt-thongtintour .bg-title-left {
+        width: 60%
+    }
+
+    .ctt-thongtintour .bg-title-right {
+        width: 40%
+    }
+
+    .ctt-cactinkhac .bg-title-left {
+        width: 50%
+    }
+
+    .ctt-cactinkhac .bg-title-right {
+        width: 50%
+    }
+
+    .ctt-cnvp .bg-title-left {
+        width: 100%
+    }
+
+    .search-tour {
+        height: 560px
+    }
+
+    .header .header-top .hdtop-phone .phone-support-show {
+        top: 103px;
+        z-index: 999999;
+        left: 0
+    }
+
+    .line-t {
+        margin-bottom: 0!important;
+        display: block!important
+    }
+
+    .ctt-thongtintour-item img {
+        height: 222px
+    }
+
+    .nhatky .bg-title-left {
+        width: 73%
+    }
+
+    .nhatky .bg-title-right {
+        width: 27%
+    }
+
+    .news-name {
+        font-size: 20px
+    }
+
+    .lienhe .bg-title-left {
+        width: 32%
+    }
+
+    .lienhe .bg-title-right {
+        width: 68%
+    }
+
+    .header .header-top .hdtop-search .h-btn-search div:nth-child(1) {
+        margin-right: 0
+    }
+
+    .header .header-top .hdtop-search {
+        margin-right: 15px;
+        padding-right: 0;
+        border-right: 1px solid #efefef;
+        position: relative;
+        height: 34px
+    }
+
+    .s-form-search {
+        width: 92vw;
+        box-shadow: rgba(0,0,0,.56) 0 22px 70px 4px
+    }
+
+    .header .header-top .hdtop-search .nav>li>a {
+        padding: 5px 6px!important
+    }
+
+    .hethong .bg-title-left {
+        width: 75%
+    }
+
+    .hethong .bg-title-right {
+        width: 25%
+    }
+
+    img.pic-tapchi {
+        height: auto
+    }
+
+    img.pic-video {
+        height: auto
+    }
+
+    .ctt-cactinkhac .sub-tin .col-sm-4 {
+        padding-right: 15px!important
+    }
+
+    .pic-tinkhac {
+        height: auto
+    }
+
+    .ctt-cactinkhac .sub-tin .mg-bot {
+        margin-bottom: 10px
+    }
+}
+
+@media only screen and (max-width: 414px) {
+    .videoclips .sl-title-s a {
+        font-size:16px
+    }
+
+    .header .header-top .hdtop-search {
+        padding-right: 0;
+        border-right: initial!important
+    }
+
+    .slideshow a img.pic {
+        height: auto
+    }
+
+    .group-slideshow img.pic-s {
+        height: 270px
+    }
+
+    .content-right .search-tour {
+        height: 556px
+    }
+
+    .trainghiem360 img.pic {
+        height: auto
+    }
+
+    .dulichgiare img.pic-dlgr {
+        height: 270px
+    }
+
+    .dulich360 img.pic {
+        height: auto
+    }
+
+    .right-title .nk-left-sub img.pic-sub,.right-title .nk-right-sub img.pic-sub {
+        height: 255px
+    }
+
+    .tourhotkhuyenmai img.pic {
+        height: 295px
+    }
+
+    .ctt-cactinkhac img.pic {
+        height: 295px
+    }
+
+    .tintuc-in img.pic-lg {
+        height: auto
+    }
+
+    .tintuc-in img.pic-s {
+        height: auto
+    }
+
+    .videoclips img.v-lg {
+        height: auto
+    }
+
+    .list-video .v-s {
+        height: auto
+    }
+
+    .item-news .col-lg-9 {
+        padding-left: 15px!important
+    }
+
+    .item-news img {
+        height: auto
+    }
+
+    .show-menu-mini {
+        right: 0;
+        top: 6rem
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    .slideshow a img.pic {
+        height:auto
+    }
+
+    .group-slideshow img.pic-s {
+        height: auto
+    }
+
+    .trainghiem360 img.pic {
+        height: auto
+    }
+
+    .dulichgiare img.pic-dlgr {
+        height: auto
+    }
+
+    .dulich360 img.pic {
+        height: auto
+    }
+
+    .right-title .sub-tin img.pic-sub {
+        height: auto
+    }
+
+    .dulich360 .mg-b480 {
+        margin-bottom: 15px
+    }
+
+    .right-title .nk-left-sub img.pic-sub,.right-title .nk-right-sub img.pic-sub {
+        height: auto
+    }
+
+    .tourhotkhuyenmai img.pic {
+        height: auto
+    }
+
+    .ctt-cactinkhac img.pic {
+        height: auto
+    }
+
+    .tintuc-in img.pic-lg {
+        height: auto
+    }
+
+    .tintuc-in img.pic-s {
+        height: auto
+    }
+
+    .dulichtuchon img.pic-dlgr {
+        height: auto
+    }
+
+    .videoclips img.v-lg {
+        height: auto
+    }
+
+    .list-video .v-s {
+        height: auto
+    }
+}
+
+@media only screen and (max-width: 360px) {
+}
+
+@media only screen and (max-width: 320px) {
+    .slideshow a img.pic {
+        height:auto
+    }
+
+    .group-slideshow img.pic-s {
+        height: 204px
+    }
+
+    .trainghiem360 img.pic {
+        height: auto
+    }
+
+    .dulichgiare img.pic-dlgr {
+        height: 204px
+    }
+
+    .dulich360 img.pic {
+        height: auto
+    }
+
+    .right-title .nk-left-sub img.pic-sub,.right-title .nk-right-sub img.pic-sub {
+        height: 222px
+    }
+
+    .tourhotkhuyenmai img.pic {
+        height: 222px
+    }
+
+    .ctt-cactinkhac img.pic {
+        height: 222px
+    }
+
+    .tintuc-in img.pic-lg {
+        height: auto
+    }
+
+    .tintuc-in img.pic-s {
+        height: auto
+    }
+
+    .videoclips img.v-lg {
+        height: auto
+    }
+
+    .list-video .v-s {
+        height: auto
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .vieholiday-footer {
+        background-size:100% 100%;
+        background-repeat: no-repeat;
+        background-color: #f8d134;
+        background-image: url(../img/vtv_pattern_tet_nav.png)
+    }
+}

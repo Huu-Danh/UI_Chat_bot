@@ -1,0 +1,357 @@
+#vtvgroup {
+    background-image: url(https://travel.com.vn/images/vtvgroup/vtvgroup-bg.png);
+    background-repeat: no-repeat;
+    background-position: center right;
+    position: fixed;
+    left: -317px;
+    top: 240px;
+    overflow: hidden;
+    text-align: left;
+    z-index: 10000;
+    height: 378px;
+    padding: 0 30px 0 0;
+    cursor: pointer
+}
+
+.nolist {
+    list-style: none;
+    padding: 0;
+    margin: 0
+}
+
+#vtvgroup .vtvgroup {
+    width: 306px;
+    height: 375px;
+    padding: 8px 3px 7px 10px;
+    position: relative
+}
+
+#vtvgroup .close_arrow {
+    background: url(https://travel.com.vn/images/vtvgroup/left_open.jpg) no-repeat left top;
+    width: 11px;
+    height: 11px;
+    position: absolute;
+    right: -24px;
+    bottom: 9px
+}
+
+#vtvgroup .open_arrow {
+    background: url(https://travel.com.vn/images/vtvgroup/left_close.jpg) no-repeat left top;
+    width: 11px;
+    height: 11px;
+    position: absolute;
+    right: -24px;
+    bottom: 9px
+}
+
+#vtvgroup .vtvgroup ul {
+    margin: 0;
+    float: left
+}
+
+#vtvgroup .vtvgroup ul li a {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    text-shadow: 1px 1px rgba(0,0,0,.25);
+    transition: all 300ms ease 100ms;
+    -webkit-transition: all 300ms ease 100ms;
+    float: left
+}
+
+#vtvgroup .vtvgroup ul li a:hover {
+    text-decoration: none;
+    border-color: #555;
+    box-shadow: 0 1px 25px rgba(0,0,0,.4) inset;
+    color: #fff!important
+}
+
+#vtvgroup .vtvgroup ul li {
+    margin-bottom: 3px;
+    float: left
+}
+
+#vtvgroup .vtvgroup .col1,#vtvgroup .vtvgroup .col1 a {
+    width: 137px;
+    margin-right: 3px
+}
+
+#vtvgroup .vtvgroup .col1 li.vietravel {
+    height: 96px
+}
+
+#vtvgroup .vtvgroup .col1 li.vietravel a {
+    background-color: #0f63a3;
+    background-image: url(https://travel.com.vn/images/vtvgroup/vietravel.png);
+    background-position: center 20px;
+    height: 96px;
+    padding-top: 60px
+}
+
+#vtvgroup .vtvgroup .col1 li.vietravel a:hover {
+    background-position: center 40px;
+    padding-top: 20px
+}
+
+#vtvgroup .vtvgroup .col1 li.car {
+    height: 73px;
+    width: 57px;
+    margin-right: 3px
+}
+
+#vtvgroup .vtvgroup .col1 li.car a {
+    width: 57px;
+    background-color: #01a719;
+    background-image: url(https://travel.com.vn/images/vtvgroup/car.png);
+    height: 73px;
+    background-position: center 15px;
+    padding-top: 50px;
+    text-align: center
+}
+
+#vtvgroup .vtvgroup .col1 li.car a:hover {
+    background-position: center 35px;
+    padding-top: 10px
+}
+
+#vtvgroup .vtvgroup .col1 li.ticket {
+    height: 73px;
+    width: 77px
+}
+
+#vtvgroup .vtvgroup .col1 li.ticket a {
+    width: 77px;
+    background-color: #2fb1be;
+    background-image: url(https://travel.com.vn/images/vtvgroup/ticket.png);
+    height: 73px;
+    background-position: center 15px;
+    padding-top: 50px;
+    text-align: center
+}
+
+#vtvgroup .vtvgroup .col1 li.ticket a:hover {
+    background-position: center 35px;
+    padding-top: 10px
+}
+
+#vtvgroup .vtvgroup .col1 li.hotel {
+    height: 44px
+}
+
+#vtvgroup .vtvgroup .col1 li.hotel a {
+    background-color: #f93;
+    background-image: url(https://travel.com.vn/images/vtvgroup/hotel.png);
+    height: 44px;
+    background-position: 5px center;
+    padding: 15px 10px 0 65px;
+    text-align: left
+}
+
+#vtvgroup .vtvgroup .col1 li.hotel a:hover {
+    background-position: 70px center;
+    padding: 15px 10px 0 5px
+}
+
+#vtvgroup .vtvgroup .col1 li.vimac {
+    height: 65px
+}
+
+#vtvgroup .vtvgroup .col1 li.vimac a {
+    background-color: #ffba16;
+    background-image: url(https://travel.com.vn/images/vtvgroup/vimac.png);
+    height: 65px;
+    background-position: center 7px;
+    padding-top: 45px;
+    text-align: center
+}
+
+#vtvgroup .vtvgroup .col1 li.vimac a:hover {
+    background-position: center 25px;
+    padding-top: 6px
+}
+
+#vtvgroup .vtvgroup .col1 li.viecom {
+    height: 75px
+}
+
+#vtvgroup .vtvgroup .col1 li.viecom a {
+    background-color: #d9532d;
+    background-image: url(https://travel.com.vn/images/vtvgroup/viecom.png);
+    background-position: 115px center;
+    height: 65px;
+    padding-top: 18px;
+    text-align: left;
+    padding-left: 10px
+}
+
+#vtvgroup .vtvgroup .col1 li.viecom a:hover {
+    background-position: 10px center;
+    padding-top: 18px;
+    padding-left: 45px
+}
+
+#vtvgroup .vtvgroup .col2,#vtvgroup .vtvgroup .col2 a {
+    width: 153px
+}
+
+#vtvgroup .vtvgroup .col2 li.travel {
+    height: 81px
+}
+
+#vtvgroup .vtvgroup .col2 li.travel a {
+    background-color: #0f5f64;
+    background-image: url(https://travel.com.vn/images/vtvgroup/travel.png);
+    height: 81px;
+    background-position: center 15px;
+    padding-top: 50px;
+    text-align: center
+}
+
+#vtvgroup .vtvgroup .col2 li.travel a:hover {
+    background-position: center 35px;
+    padding-top: 15px
+}
+
+#vtvgroup .vtvgroup .col2 li.tour-asia {
+    height: 59px
+}
+
+#vtvgroup .vtvgroup .col2 li.tour-asia a {
+    background-color: #d9532d;
+    background-image: url(https://travel.com.vn/images/vtvgroup/tour-asia.png);
+    background-position: 100px center;
+    height: 59px;
+    padding-top: 24px;
+    text-align: left;
+    padding-left: 10px
+}
+
+#vtvgroup .vtvgroup .col2 li.tour-asia a:hover {
+    background-position: 5px center;
+    padding-top: 24px;
+    padding-left: 40px
+}
+
+#vtvgroup .vtvgroup .col2 li.golf {
+    height: 86px;
+    width: 153px;
+    margin-right: 3px
+}
+
+#vtvgroup .vtvgroup .col2 li.golf a {
+    width: 153px;
+    background-color: #197b30;
+    background-image: url(https://travel.com.vn/images/vtvgroup/golf.png);
+    height: 86px;
+    background-position: center 15px;
+    padding-top: 55px;
+    text-align: center
+}
+
+#vtvgroup .vtvgroup .col2 li.golf a:hover {
+    background-position: center 35px;
+    padding-top: 15px
+}
+
+#vtvgroup .vtvgroup .col2 li.dive {
+    height: 86px;
+    width: 74px
+}
+
+#vtvgroup .vtvgroup .col2 li.dive a {
+    width: 74px;
+    background-color: #0084cc;
+    background-image: url(https://travel.com.vn/images/vtvgroup/vinadive.png);
+    height: 86px;
+    background-position: center 15px;
+    padding-top: 55px;
+    text-align: center
+}
+
+#vtvgroup .vtvgroup .col2 li.dive a:hover {
+    background-position: center 35px;
+    padding-top: 15px
+}
+
+#vtvgroup .vtvgroup .col2 li.training {
+    height: 52px
+}
+
+#vtvgroup .vtvgroup .col2 li.training a {
+    background-color: #b61b43;
+    background-image: url(https://travel.com.vn/images/vtvgroup/training.png);
+    background-position: 115px center;
+    height: 52px;
+    padding-top: 18px;
+    text-align: left;
+    padding-left: 10px
+}
+
+#vtvgroup .vtvgroup .col2 li.training a:hover {
+    background-position: 10px center;
+    padding-top: 18px;
+    padding-left: 45px
+}
+
+#vtvgroup .vtvgroup .col2 li.training {
+    height: 52px
+}
+
+#vtvgroup .vtvgroup .col2 li.training a {
+    background-color: #b61b43;
+    background-image: url(https://travel.com.vn/images/vtvgroup/training.png);
+    background-position: 115px center;
+    height: 52px;
+    padding-top: 18px;
+    text-align: left;
+    padding-left: 10px
+}
+
+#vtvgroup .vtvgroup .col2 li.training a:hover {
+    background-position: 10px center;
+    padding-top: 18px;
+    padding-left: 45px
+}
+
+#vtvgroup .vtvgroup .col2 li.training {
+    height: 52px
+}
+
+#vtvgroup .vtvgroup .col2 li.training a {
+    background-color: #b61b43;
+    background-image: url(https://travel.com.vn/images/vtvgroup/training.png);
+    background-position: 115px center;
+    height: 52px;
+    padding-top: 18px;
+    text-align: left;
+    padding-left: 10px
+}
+
+#vtvgroup .vtvgroup .col2 li.training a:hover {
+    background-position: 10px center;
+    padding-top: 18px;
+    padding-left: 45px
+}
+
+#vtvgroup .vtvgroup .col2 li.beevent {
+    height: 65px
+}
+
+#vtvgroup .vtvgroup .col2 li.beevent a {
+    background-color: #ffc713;
+    background-image: url(https://travel.com.vn/images/vtvgroup/beevent.png);
+    height: 65px;
+    background-position: center 7px;
+    padding-top: 45px;
+    text-align: center
+}
+
+#vtvgroup .vtvgroup .col2 li.beevent a:hover {
+    background-position: center 25px;
+    padding-top: 6px
+}
