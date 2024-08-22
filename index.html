@@ -2224,24 +2224,39 @@
                 <button class="chatbot-toggler">
                     <span class="material-symbols-rounded">mode_comment</span>
                     <span class="material-symbols-outlined">close</span>
-                </button>
-                <div class="chatbot">
+                  </button>
+                  <div class="chatbot">
                     <header>
-                        <h3 style="font-weight:bold">Trợ lý ảo Vietravel</h3>
-                        <span class="close-btn material-symbols-outlined">close</span>
+                      <h3 >Tư vấn tại đây</h3>
+                      <span class="close-btn material-symbols-outlined">close</span>
                     </header>
                     <ul class="chatbox">
-                        <li class="chat incoming">
-                            <span><img src="/Content/img/download.png" alt="icon" width="30" height="30"></span>
-                            <p>Xin chào! Vietravel có thể giúp gì cho quý khách ạ?</p>
-                        </li>
+                      <li class="chat incoming">
+                        <span ><img src="Content/img/download.png" alt="icon" width="30" height="30"></span>
+                        <p>Xin chào, em có thể giúp gì cho anh/chị không ạ?</p>
+                      </li>
+                      <li style="background:white; color:black; padding: 10px; border-radius: 5px; display: contents;">
+                        <div class="d-flex text-center" style="font-size: 1rem; margin-top: 10px;" >
+                          <button class="btn btn-light flex-fill m-1 d-flex flex-column align-items-center" style="color: black; border: 1px solid #ccc; font-size: 0.8em;" onclick="window.location.href='https://travel.com.vn/du-lich-gio-chot.aspx'">
+                            <i class="fas fa-suitcase-rolling mb-1" style="font-size: 1.0em;"></i>
+                            <span>Các tour giờ chót</span>
+                          </button>
+                          <button class="btn btn-light flex-fill m-1 d-flex flex-column align-items-center" style="color: black; border: 1px solid #ccc; font-size: 0.8em;">
+                            <i class="fas fa-hotel mb-1" style="font-size: 1.0em;"></i>
+                            <span>Khách sạn</span>
+                          </button>
+                          <button class="btn btn-light flex-fill m-1 d-flex flex-column align-items-center" style="color: black; border: 1px solid #ccc; font-size: 0.8em;" onclick="window.location.href='https://www.vietravelairlines.com/vn/vi'">
+                            <i class="fas fa-plane mb-1" style="font-size: 1.0em;"></i>
+                            <span>Vé máy bay</span>
+                          </button>
+                        </div>
+                      </li>
                     </ul>
                     <div class="chat-input">
-                        <textarea placeholder="Nhập nội dung cần hổ trợ" spellcheck="false" required></textarea>
-                        <span id="send-btn" class="material-symbols-rounded">send</span>
+                      <textarea placeholder="Nhập câu hỏi ở đây..." spellcheck="false" required></textarea>
+                      <span id="send-btn" class="material-symbols-rounded">send</span>
                     </div>
-                </div>
-
+                  </div>
             </div>
             <script src="/Content/js/script-chat.js"></script>
             <script src="/Content/js/jquery.dotdotdot.js"></script>

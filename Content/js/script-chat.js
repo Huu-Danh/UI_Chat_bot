@@ -10,21 +10,21 @@ const inputInitHeight = chatInput.scrollHeight;
 const createChatLi = (message, className) => {
     // Lấy thời gian hiện tại và định dạng
     const currentTime = new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' });
-    
+
     // Tạo phần tử <li> chứa nội dung tin nhắn và thời gian
     const chatLi = document.createElement("li");
     chatLi.classList.add("chat", `${className}`);
     if (className === "outgoing") {
         chatLi.style.alignItems = `flex-end`;
         chatLi.style.flexDirection = `column`;
-      }
+    }
     // Nội dung của tin nhắn và thời gian
-    let chatContent = className === "outgoing" 
-        ? `<p>${message}</p><small class="time">${currentTime}</small>` 
+    let chatContent = className === "outgoing"
+        ? `<p>${message}</p><small class="time">${currentTime}</small>`
         : `<span><img src="/Content/img/download.png" alt="logo_Vietravel" width="30" height="30"></span><div><p>${message}</p><small class="time">${currentTime}</small></div>`;
-    
+
     chatLi.innerHTML = chatContent;
-    
+
     return chatLi; // Trả về phần tử <li>
 }
 
@@ -49,11 +49,16 @@ const generateResponse = async (chatElement, userMessage) => {
         if (!response.ok) {
             throw new Error('Phản hồi mạng không ổn định');
         }
+
         // Chuyển đổi phản hồi thành chuỗi văn bản
         const data = await response.json();
-        const botResponse = data.answer;
+        let botResponse = data.answer.replace(/\*/g, '');
+
+        // Áp dụng hàm chuyển đổi URL thành thẻ <a>
+        botResponse = convertTextToLink(botResponse);
+
         // Hiển thị nội dung phản hồi
-        messageElement.innerHTML = botResponse
+        messageElement.innerHTML = botResponse;
     } catch (error) {
         // Xử lý lỗi
         messageElement.classList.add("error");
@@ -63,6 +68,7 @@ const generateResponse = async (chatElement, userMessage) => {
         chatbox.scrollTo(0, chatbox.scrollHeight);
     }
 };
+
 
 const handleChat = () => {
     userMessage = chatInput.value.trim(); // Get user entered message and remove extra whitespace
@@ -102,13 +108,14 @@ chatInput.addEventListener("keydown", (e) => {
 
 
 function convertTextToLink(text) {
-    // biểu thức nhận ra url
+    // Biểu thức chính quy để nhận diện URL
     const urlPattern = /(\b(?:https?|ftp|file):\/\/[-A-Z0-9+&@#\/%?=~_|$!:,.;]*[-A-Z0-9+&@#\/%=~_|$])/ig;
     return text.replace(urlPattern, function (url) {
         // Chuyển URL thành thẻ <a> với thuộc tính href và target
-        return `<a href="${url}" target="_blank">${url}</a>`;
+        return `<a href="${url}" target="_blank">Tại đây</a>`;
     });
 }
+
 
 
 sendChatBtn.addEventListener("click", handleChat);
